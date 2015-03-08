@@ -44,9 +44,7 @@ shinyServer(
   output$caption <- renderText({
     input$varLeader
   }) 
-#   output$helloworld <- renderText({
-#   "Android users -> Find me on Google Play"
-#     })  
+
   
   output$ranfor <- renderText({
     "This demonstration is provided with the help of sentiment analysis engine built by www.ranfor.com"
